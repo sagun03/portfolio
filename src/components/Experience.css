@@ -1,0 +1,15 @@
+
+  
+  /* Apply the border animation to the content of each timeline element */
+  .vertical-timeline-element-content {
+    border: 1px solid transparent;  /* Transparent border to apply the gradient */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #fff, #E4D3BC);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    color: #5A4B42;
+  }
+  
+  .date {
+    color: #fff !important;
+  }

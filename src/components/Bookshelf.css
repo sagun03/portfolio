@@ -1,0 +1,67 @@
+/* src/Bookshelf.css */
+.bookshelf {
+    padding: 50px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .bookshelf-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    perspective: 1500px; /* Adds depth and a 3D effect */
+    transform-style: preserve-3d;
+  }
+  
+  .book {
+    width: 150px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transform: rotateY(0deg) translateZ(0px);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .book:hover {
+    transform: rotateY(10deg) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .book-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .book-author {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .bookshelf-container .book:nth-child(even) {
+    transform: rotateY(-5deg);
+  }
+  
+  .bookshelf-container .book:nth-child(odd) {
+    transform: rotateY(5deg);
+  }
+  
