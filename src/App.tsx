@@ -238,7 +238,7 @@ export default function App() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={6.1} // Adjusted to match the new layout
+          offset={6.5} // Adjusted to match the new layout
           speed={1}
           factor={1}
           style={{ zIndex: 0 }}
