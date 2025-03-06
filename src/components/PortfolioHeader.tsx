@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import nisha from '../assets/nisha.png';
+import nisha from '../assets/n.png';
 
 const PortfolioComponent: React.FC = () => {
   return (
