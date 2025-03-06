@@ -215,7 +215,7 @@ export default function App() {
           <CareerTransition />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={0.2} style={{ zIndex: 0 }}>
+        <ParallaxLayer offset={2.2} speed={0.2} style={{ zIndex: 0 }}>
           <HallOfFame certifications={certifications} />
         </ParallaxLayer>
 
