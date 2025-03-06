@@ -6,7 +6,6 @@
   "homepage": "https://github.com/sagun03/portfolio.git",
   "scripts": {
     "build": "tsc -b && vite build",  
-  "predeploy": "npm install --froce && npm run build",     
   "deploy": "gh-pages -d dist",    
   "start": "vite",
   "dev": "vite"
@@ -23,7 +22,6 @@
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
-    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
