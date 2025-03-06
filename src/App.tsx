@@ -11,7 +11,7 @@ import {
 import Navbar from "./components/Navbar";
 import CareerTransition from "./components/CareerTransition";
 import sleekKartImage from "./assets/sleekKartImage.png";
-import notionAIImage from "./assets/notionAIImage.png";
+import notionAIImage from "./assets/notion.png";
 import ProjectShowcase from "./components/ProjectShowcase";
 import Experience from "./components/Experience";
 import Volunteering from "./components/Volunteering";
