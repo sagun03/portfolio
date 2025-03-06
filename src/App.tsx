@@ -10,52 +10,44 @@ import {
 } from "@react-three/drei";
 import Navbar from "./components/Navbar";
 import CareerTransition from "./components/CareerTransition";
-import sleekKartImage from "./assets/sleekKartImage.png";
-import notionAIImage from "./assets/notion.png";
 import ProjectShowcase from "./components/ProjectShowcase";
 import Experience from "./components/Experience";
 import Volunteering from "./components/Volunteering";
 import PortfolioHeader from "./components/PortfolioHeader";
 import HallOfFame from "./components/HallOfFame";
-import cert1 from "./assets/cert1.png";
-import cert2 from "./assets/cert2.png";
-import cert3 from "./assets/cert3.png";
-import cert4 from "./assets/cert4.png";
-import cert5 from "./assets/cert5.png";
-import cert6 from "./assets/cert6.png";
 import { motion } from "framer-motion";
 
 const certifications = [
   {
     name: "AI Micro-Certification",
-    image: cert6, // Replace cert6 with the appropriate image variable
+    image: "/assets/cert6.png", // Replace cert6 with the appropriate image variable
     description:
       "Deeper understanding of AI technologies in product management by Product School",
   },
   {
     name: "Certified Scrum Product Owner (CSPO)",
-    image: cert2,
+    image: "/assets/cert2.png",
     description: "Deep understanding of Agile product ownership",
   },
 
   {
     name: "Product Manager Sprint Apprenticeship (Co.Lab)",
-    image: cert4,
+    image: "/assets/cert4.png",
     description: "Hands-on experience in product development",
   },
   {
     name: "Google Project Management",
-    image: cert3,
+    image: "/assets/cert3.png",
     description: "Project execution and leadership skills",
   },
   {
     name: "Certified Scrum Master (CSM)",
-    image: cert1,
+    image: "/assets/cert1.png",
     description: "Agile & Scrum methodologies expert",
   },
   {
     name: "From Excel to SQL",
-    image: cert5,
+    image: "/assets/cert5.png",
     description: "Transitioning from spreadsheets to database management",
   },
 ];
@@ -64,13 +56,13 @@ const projects = [
   {
     title: "Sleek Kart",
     description: `🔍 Sleekart revolutionizes the grocery shopping experience by introducing innovative bill scanning technology. This advanced feature allows users to effortlessly scan their entire grocery bill, enabling seamless tracking of purchases and enhanced convenience.`,
-    image: sleekKartImage, // Image path
+    image: "/assets/sleekKartImage.png", // Image path
     learnMoreLink: "https://your-sleek-kart-project-link.com", // Optional link
   },
   {
     title: "Notion AI Enhancement",
     description: `🚀 How can AI simplify Notion user onboarding and workspace setup to create seamless experiences? How can AI simplify Notion user onboarding and workspace setup to create seamless experiences?`,
-    image: notionAIImage, // Image path
+    image: "/assets/notion.png", // Image path
     learnMoreLink: "https://your-notion-ai-project-link.com", // Optional link
   },
 ];

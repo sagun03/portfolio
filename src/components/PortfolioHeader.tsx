@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import nisha from '../assets/n.png';
 
 const PortfolioComponent: React.FC = () => {
   return (
@@ -16,7 +15,7 @@ const PortfolioComponent: React.FC = () => {
     >
       {/* Animated Image */}
       <motion.img
-        src={nisha}
+        src={"/assets/n.png"}
         alt="Person"
         style={{
           position: 'absolute',

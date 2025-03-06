@@ -1,9 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import { motion } from "framer-motion";
-import about from "../assets/about.png";
-import cast from "../assets/cast.gif";
-import cast2 from "../assets/cast2.png";
 import CareerSummary from "./CareerSummary";
 
 const CareerTransition: React.FC = () => {
@@ -39,7 +36,7 @@ const CareerTransition: React.FC = () => {
           viewport={{ once: false, amount: 0.2 }}
         >
           <img
-            src={cast}
+            src={"/assets/cast.gif"}
             alt="cast"
             style={{ width: "95vw", marginTop: "6vw" }}
           />
@@ -57,7 +54,7 @@ const CareerTransition: React.FC = () => {
           whileInView="visible"
           viewport={{ once: false, amount: 0.2 }}
         >
-          <img src={cast2} alt="cast2" style={{ width: "15vw" }} />
+          <img src={"/assets/cast2.png"} alt="cast2" style={{ width: "15vw" }} />
         </motion.div>
 
         <motion.div
@@ -67,7 +64,7 @@ const CareerTransition: React.FC = () => {
           viewport={{ once: false, amount: 0.2 }}
         >
           <img
-            src={about}
+            src={"/assets/about.png"}
             alt="about"
             style={{ width: "80vw", marginTop: "10px" }}
           />
